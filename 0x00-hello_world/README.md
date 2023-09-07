@@ -4,3 +4,4 @@
 4. 3-name
 5. 4-puts.c
 6. 5-printf.c
+7. 100-intel
