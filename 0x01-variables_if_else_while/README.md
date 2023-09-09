@@ -5,3 +5,6 @@
 5. 4-print_alphabt.c
 6. 5-print_numbers.c
 7. 6-print_numberz
+8. 7-print_tebahpla.c
+9. 8-print_base16.c
+10. 9-print_comb.c
