@@ -23,7 +23,5 @@ int _abs(int c)
 	{
 		_putchar(48 + e);
 	}
-	_putchar(48 + f);
-	_putchar('\n');
-	return (0);
+	return (f);
 }
