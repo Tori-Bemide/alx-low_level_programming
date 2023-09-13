@@ -9,7 +9,6 @@ int _abs(int c)
 {
 	int d, e, f;
 
-	c = 98;
 	if (c < 0)
 	{
 		d = -c;
