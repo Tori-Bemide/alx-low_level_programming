@@ -22,9 +22,9 @@ int _abs(int c)
 
 	if (d > 9)
 	{
-		putchar(48 + e);
+		_putchar(48 + e);
 	}
-	putchar(48 + f);
-	putchar('\n);
+	_putchar(48 + f);
+	_putchar('\n);
 	return 0;
 }
