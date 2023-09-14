@@ -16,28 +16,28 @@ void print_times_table(int n)
 			{
 				mul = i * j;
 
-				putchar(',');
-				putchar(' ');
+				_putchar(',');
+				_putchar(' ');
 				if (mul < 100)
 				{
-					putchar(' ');
+					_putchar(' ');
 				}
 				if (mul < 10)
 				{
-					putchar(' ');
+					_putchar(' ');
 				}
 				if (mul > 99)
 				{
-					putchar(48 + (mul / 100));
-					putchar(48 + ((mul - 100) / 10));
+					_putchar(48 + (mul / 100));
+					_putchar(48 + ((mul - 100) / 10));
 				}
 				if (mul > 9 && mul <= 99)
 				{
-					putchar(48 + (mul / 10));
+					_putchar(48 + (mul / 10));
 				}
-				putchar(48 + (mul % 10));
+				_putchar(48 + (mul % 10));
 			}
-			putchar('\n');
+			_putchar('\n');
 		}
 	}
 }
