@@ -3,3 +3,4 @@
 2-strchr.c
 3-strspn.c
 4-strpbrk.c
+7-print_chessboard.c
