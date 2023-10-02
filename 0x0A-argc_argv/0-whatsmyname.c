@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
- * whatsmyname - a program that prints its name, followed by a new line
+ * main - a program that prints its name, followed by a new line
  *
  * @argc: unused variable
  *
@@ -11,8 +10,8 @@
  * Return: 0
  */
 
-int whatsmyname(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	printf("%c", argv[0];
+	printf("%s", argv[0]);
 	return (0);
 }
