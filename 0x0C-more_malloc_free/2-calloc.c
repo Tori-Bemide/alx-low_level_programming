@@ -13,21 +13,26 @@
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	int *a;
+	void *a;
+	char *char_a;
 	unsigned int i;
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
 
-	a = (int *)malloc((nmemb * size) + 1);
+	a = malloc((nmemb * size) + 1);
 
 	if (a == NULL)
 		return (NULL);
 
-	for (i = 0; i < size; i++)
-		a[i] = 0;
+	char_a = (char *)a;
 
-	a[i] = '\0';
+	for (i = 0; i < (nmemb * size); i++)
+	{
+		char_a[i] = 0;
+	}
+
+	char_a[i] = '\0';
 
 	return (a);
 }
