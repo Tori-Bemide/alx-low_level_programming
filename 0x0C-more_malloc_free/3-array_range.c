@@ -21,13 +21,15 @@ int *array_range(int min, int max)
 	for (i = min; i <= max; i++)
 		len++;
 
-	a = (int *)malloc(sizeof(int) * len);
+	a = (int *)malloc((sizeof(int) * len) + 1);
 	
 	if (a == NULL)
 		return (NULL);
 	
 	for (i = 0, j = min; j <= max; i++, j++)
 		a[i] = j;
+
+	a[i] = '\0';
 
 	return (a);
 }
